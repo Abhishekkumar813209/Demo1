@@ -33,7 +33,7 @@ function App() {
           </h2>
           <h2 className='text-lg text-white flex justify-center'>Click on the Card to Orient them in Straight Direction and Drag them in alternate direction for best experience</h2>
           <div className='h-[90vh] relative'>
-          {/* <Deck /> */}
+          <Deck />
           </div>
         </div>
         
