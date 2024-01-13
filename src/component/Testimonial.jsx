@@ -125,7 +125,7 @@ const Testimonial = () => {
   return (
     <Slider {...settings}>
       {cards.map((card) => (
-        <div key={card.id} className='mt-[-4rem] py-16 flex flex-wrap gap-3 max-w-[400px] px-4 sm:h-[920px] lg:h-[800px] text-justify'>
+        <div key={card.id} className='mt-[-4rem] py-16 flex flex-wrap gap-3 px-4 sm:h-[920px] lg:h-[800px] text-justify'>
           <div
             className='flex flex-col self-auto h-full gap-3 p-4 flex-auto sm:basis-[25%] lg:basis-0 shadow-md rounded-[16px] border border-solid border-stone-600 [&:nth-child(2)]:bg-stone-600 '
           >
