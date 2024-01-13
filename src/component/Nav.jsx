@@ -3,6 +3,7 @@ import logo1 from '../assest/PiSence Logo/Group 5.png';
 import logo2 from '../assest/PiSence Logo/Group 5 (1).png';
 import nav from '../constant/nav';
 import { IoMenuOutline, IoClose } from 'react-icons/io5';
+import {Link} from "react-scroll"
 
 export default function Nav() {
   const [navClicked, setNavClicked] = useState(true);
@@ -24,9 +25,11 @@ export default function Nav() {
         <div className='hidden text-stone-50 md:block w-1/2'>
           <ul className='flex justify-evenly items-center'>
             {nav.map((item) => (
-              <li key={item.id} className='py-2 px-3 hover:border-b-2 hover:text-[#FF2929] hover:border-[#FF2929]'>
-                <a href='#'>{item.title}</a>
+              <Link key={item.id} to={item.link} smooth={true} duration={500}>
+              <li key={item.id} className='py-2 px-3 hover:border-b-2 hover:text-[#FF2929] hover:border-[#FF2929] cursor-pointer'>
+                 {item.title}
               </li>
+              </Link>
             ))}
           </ul>
         </div>
@@ -38,9 +41,11 @@ export default function Nav() {
       >
         <ul className='p-5 list-none'>
           {nav.map((item) => (
-            <li key={item.id} className={`${nav.length == item.id ? 'mb-0' : 'mb-2'} p-1 hover:text-[#FF2929]`}>
-              <a href='#'>{item.title}</a>
+             <Link key={item.id} to={item.link} smooth={true} duration={500}>
+            <li key={item.id} className={`${nav.length == item.id ? 'mb-0' : 'mb-2'} p-1 hover:text-[#FF2929] hover:border-b-[#FF2929] cursor-pointer`}>
+              {item.title}
             </li>
+            </Link>
           ))}
         </ul>
       </div>

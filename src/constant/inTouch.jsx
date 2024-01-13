@@ -11,7 +11,7 @@ const touch = [
     id: 2,
     icon: <IoMail size={30} />,
     title: 'Mail',
-    desc: 'info.pisence@gmail.com',
+    desc: 'support@pisence.com',
   },
   {
     id: 3,

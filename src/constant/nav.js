@@ -1,8 +1,8 @@
 const nav = [
-  { id: 1, title: 'Home' },
-  { id: 2, title: 'About' },
-  { id: 3, title: 'Offerings' },
-  { id: 4, title: 'Contact' },
+  { id: 1, title: 'Home',link:"/" },
+  { id: 2, title: 'About',link:"about" },
+  { id: 3, title: 'Offerings',link:"offerings" },
+  { id: 4, title: 'Contact',link:"contact" },
 ];
 
 export default nav;
