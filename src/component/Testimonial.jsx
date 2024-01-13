@@ -37,7 +37,7 @@ const Testimonial = () => {
       const width = window.innerWidth;
       let newSlidesToShow;
 
-      if (width < 400) {
+      if (width < 430) {
         newSlidesToShow = 1;
       } else if (width < 960) {
         newSlidesToShow = 2;
