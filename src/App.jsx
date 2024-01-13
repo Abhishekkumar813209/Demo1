@@ -16,7 +16,7 @@ function App() {
     offset:1
   })
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Nav />
       <HeroSection />
       <CircleCursor />
@@ -41,7 +41,7 @@ function App() {
       </section>
       <GetInTouch />
       <Footer />
-    </>
+    </div>
   );
 }
 
