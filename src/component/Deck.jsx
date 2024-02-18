@@ -6,11 +6,11 @@ import PropTypes from "prop-types"
 import styles from './styles.module.scss';
 
 const cards = [
-  'https://i.postimg.cc/zXtpRMdR/Screenshot-2024-01-12-201551.png',
-  'https://i.postimg.cc/VNMwdXW2/Screenshot-2024-01-12-200430.png',
-  'https://i.postimg.cc/26zB6r9m/Screenshot-2024-01-11-225459.png',
-  'https://i.postimg.cc/y6w8YYKJ/Screenshot-2024-01-12-201047.png',
-  'https://i.postimg.cc/59hJJYmG/Screenshot-2024-01-12-195221.png'
+  'https://i.postimg.cc/g2kDFyYZ/Screenshot-2024-01-16-214026.png',
+  'https://i.postimg.cc/3xnvgPQy/Screenshot-2024-01-16-213721.png',
+  'https://i.postimg.cc/6qJXgmwt/Screenshot-2024-01-16-213505.png',
+  'https://i.postimg.cc/rsc1hqdT/Screenshot-2024-01-16-211647.png',
+  'https://i.postimg.cc/QM4Jx2nk/Screenshot-2024-01-16-211420.png'
 ];
 
 const to = (i) => ({
